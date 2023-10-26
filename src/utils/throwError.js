@@ -9,6 +9,7 @@ module.exports = {
 };
 
 
+// 똑같은데 아래가 더 고차원적
 // const jwt = require("jsonwebtoken");
 
 // exports.tokenGeneration = (userId) => {
