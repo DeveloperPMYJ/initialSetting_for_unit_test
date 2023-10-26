@@ -6,7 +6,6 @@ const { throwError } = require('../utils/throwError');
 
 exports.verifyToken = (req, res, next) => {
   const token = req.headers.authorization;
-//  const token = req.headers.authorization;
 
   // 토큰 유무 확인
   if (!token) {
